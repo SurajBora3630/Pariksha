@@ -1,0 +1,59 @@
+/* AdminProfileUpdatePage.css */
+
+.adminProfileUpdatePage__container {
+    display: flex;
+    align-items: flex-start; /* Align children to the top */
+    padding: 20px;
+    
+    justify-content: center;
+}
+
+.adminProfileUpdatePage__sidebar {
+    flex: 1; /* Allow the sidebar to grow */
+    margin-right: 20px; /* Add some spacing between sidebar and form content */
+}
+
+.adminProfileUpdatePage__content {
+    flex: 2; /* Allow the form content to grow more */
+    justify-content: center;
+}
+
+/* Add any additional styling as needed for form, inputs, buttons, etc. */
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border: none; /* Remove card border */
+    border-radius: 15px; /* Apply border radius */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.card-body {
+    padding: 20px; /* Add padding to the card body */
+    background-color: rgba(255, 255, 255, 0.8); /* Set a semi-transparent white background */
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Media query for responsiveness (adjust as needed) */
+@media (max-width: 768px) {
+    .adminProfileUpdatePage__container {
+        flex-direction: column; /* Stack sidebar on top of form content on smaller screens */
+        align-items: center; /* Center align children on smaller screens */
+    }
+
+    .adminProfileUpdatePage__sidebar {
+        width: 100%; /* Sidebar takes full width on smaller screens */
+        margin-right: 0; /* No margin between sidebar and form content */
+    }
+
+    .adminProfileUpdatePage__content {
+        width: 100%; /* Form content takes full width on smaller screens */
+    }
+
+    /* Add responsive styling for other elements as needed */
+}

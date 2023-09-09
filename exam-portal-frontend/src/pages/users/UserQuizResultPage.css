@@ -1,0 +1,31 @@
+.userQuizResultPage__container {
+    display: flex;
+    
+    padding: 20px;
+
+}
+
+.userQuizResultPage__sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    flex: 1;
+  padding-right: 20px;
+  max-height: 100vh; /* Adjust to fit your layout */
+  overflow-y: auto; /* Add vertical scroll if content exceeds max height */
+}
+
+.userQuizResultPage__content {
+    width: 90%;
+    height: fit-content;
+    margin: 10px auto;
+    flex:3;
+}
+
+
+.userQuizResultPage__content--table {
+    border: 1px solid gray;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}

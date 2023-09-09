@@ -1,0 +1,165 @@
+/* AboutUsPage.css */
+.about-us-page {
+    padding: 40px 0;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .about {
+    margin-bottom: 50px;
+  }
+  
+  .about-text {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .about-creator {
+    margin-top: 30px;
+  }
+  
+  .creator-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact-us {
+    margin-top: 50px;
+  }
+  
+  .contact-info {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .contact-form .form-control {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form button {
+    background-color: #007f99;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #005f73;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .about-text {
+      font-size: 16px;
+    }
+  
+    .creator-title {
+      font-size: 20px;
+    }
+  
+    .contact-form {
+      margin-top: 20px;
+    }
+  
+    .contact-form h3 {
+      font-size: 20px;
+    }
+  }
+  .about-image {
+    max-width: 100%;
+    max-height: 400px; /* Adjust the max-height as needed */
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }  
+  /* AboutUsPage.css */
+
+/* Add some spacing between form fields */
+.contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form submit button */
+  .contact-form button[type="submit"] {
+    background-color: #007f99;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    background-color: #005f75;
+  }
+  
+  /* Style form labels */
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  /* Adjust form input and textarea styles */
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Add some spacing between form elements */
+  .contact-form .form-group:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  /* Style form field focus */
+  .contact-form input[type="text"]:focus,
+  .contact-form input[type="email"]:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    border-color: #00a8cc;
+    box-shadow: 0 0 5px rgba(0, 168, 204, 0.5);
+  }
+  .contact-form label {
+    font-weight: bold;
+    font-size: 18px; /* Add a font size to make labels more prominent */
+    color: #333;
+    margin-bottom: 5px; /* Add spacing between labels and form fields */
+  }

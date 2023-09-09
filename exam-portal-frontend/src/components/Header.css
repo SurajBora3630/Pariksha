@@ -1,0 +1,65 @@
+/* Header.css */
+.header {
+  font-family: 'Your Custom Font', sans-serif;
+
+}
+
+.header-container {
+  width: 100%;
+  top: 0;
+  background-color: #343a40; /* Adjust the background color as needed */
+  z-index: 1000;
+}
+
+.logo {
+  width: 40px; /* Adjust the width as needed */
+  height: auto; /* Allows the height to adjust proportionally */
+  margin-right: 10px; /* Adjust the margin for spacing */
+}
+
+/* Style for the brand link */
+.brand-link {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.brand-link:hover {
+  color: #00a8cc;
+}
+
+/* Style for the navigation links */
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #00a8cc;
+}
+
+/* Style for the About Us link */
+.about-link {
+  margin-left: 20px;
+  background-color: #00a8cc;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.about-link:hover {
+  background-color: #007f99;
+  color: #fff;
+}
+
+/* Style for icons */
+.icon {
+  margin-right: 5px;
+}

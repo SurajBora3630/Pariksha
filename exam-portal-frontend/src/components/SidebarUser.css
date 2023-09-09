@@ -1,0 +1,57 @@
+/* SidebarUser.css */
+
+.container {
+    display: flex;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+  }
+  
+  .sidebar {
+    width: 3em;
+    background-color: #333; /* Sidebar background color */
+    color: #fff; /* Text color */
+    transition: width 0.3s ease;
+    flex: 1;
+  }
+  
+  .sidebar-open {
+    width: 12em; /* Expanded width when open */
+  }
+  
+  .top_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    display: none; /* Hide the logo by default */
+  }
+  
+  .bars {
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .sidemenulink {
+    text-decoration: none;
+    color: #fff; /* Link text color */
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidemenulink:hover {
+    background-color: #444; /* Hover background color */
+  }
+  
+  .sidemenulink-active {
+    background-color: #555; /* Active link background color */
+  }
+  

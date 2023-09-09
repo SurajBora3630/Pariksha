@@ -1,0 +1,80 @@
+/* AdminProfilePage.css */
+.adminProfilePage__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+.adminProfilePage__sidebar {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.adminProfilePage__content {
+  flex: 3;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.adminProfilePage__content--table {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.adminProfilePage__content--profilePicContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.adminProfilePage__content--profilePicFrame {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminProfilePage__content--profilePic {
+  object-fit: cover;
+}
+
+.gradient-custom {
+  background: #f6d365;
+  background: -webkit-linear-gradient(
+    to right bottom,
+    rgba(246, 211, 101, 1),
+    rgba(253, 160, 133, 1)
+  );
+  background: linear-gradient(
+    to right bottom,
+    rgba(246, 211, 101, 1),
+    rgba(253, 160, 133, 1)
+  );
+}
+
+.update-profile-link {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.update-profile-link:hover {
+  background-color: #0056b3;
+}
+
+/* Add any other custom styles you might need */

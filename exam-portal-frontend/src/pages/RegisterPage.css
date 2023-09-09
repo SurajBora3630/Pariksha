@@ -1,0 +1,181 @@
+body {
+  background-color: #8fc4b7;
+  }
+
+.fa-eye,
+.fa-eye-slash {
+  color: black;
+}
+
+.register-page-container {
+  display: flex;
+  justify-content: center;
+
+  background-size: cover;
+  padding:20px;
+  background-image: url('C:\Users\hp\Desktop\suraj\Exam-Portal-master\Exam-Portal-master\exam-portal-frontend\public\images\signup.jpg');
+
+  padding: 20px;
+ }
+
+.register-form-card {
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.register-page-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.password-strength {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.password-strength.weak {
+  color: red;
+}
+
+.password-strength.good {
+  color: orange;
+}
+
+.password-strength.strong {
+  color: green;
+}
+
+.register-button {
+  background-color: #00a8cc;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #007f99;
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-3 > * {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-3 > :first-child {
+  padding-top: 0;
+}
+
+.py-3 > :last-child {
+  padding-bottom: 0;
+}
+
+.py-3 > :not([class]) {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-success {
+  color: #198754;
+}
+
+.text-warning {
+  color: #ffc107;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+/* Add this CSS to beautify the modal */
+/* You can customize these styles according to your design preferences */
+
+/* Modal backdrop */
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal content container */
+.modal-content {
+  border-radius: 10px;
+}
+
+/* Modal header */
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  padding: 15px;
+}
+
+/* Modal title */
+.modal-title {
+  font-size: 24px;
+}
+
+/* Modal body */
+.modal-body {
+  padding: 20px;
+}
+
+/* Modal footer */
+.modal-footer {
+  background-color: #f4f4f4;
+  border-radius: 0 0 10px 10px;
+  padding: 15px;
+  justify-content: center;
+}
+
+/* Close button */
+.close {
+  color: #007bff;
+  font-size: 24px;
+}
+
+/* Customize the modal button (e.g., OK or Close) */
+.modal-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modal-button:hover {
+  background-color: #0056b3;
+}

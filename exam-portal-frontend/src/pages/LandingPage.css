@@ -1,0 +1,334 @@
+/* Style the Carousel container */
+.MDBCarousel {
+  max-height: 20vh; /* Adjust the maximum height as needed */
+  margin: 0 auto; /* Center-align the Carousel within the viewport */
+}
+
+/* Style the Carousel items (slides) */
+.MDBCarouselItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover; /* This ensures the image covers the entire slide */
+}
+
+/* Style the images within the Carousel */
+.MDBCarouselItem img {
+  max-width: 100%; /* Ensures the image does not exceed the slide width */
+  max-height: 100%; /* Ensures the image does not exceed the slide height */
+}
+.smallHeading{
+  color: aliceblue;
+}
+/* LandingPage.css */
+
+/* Header Styling */
+.header-container {
+  background-color: #343a40;
+  padding: 20px 0;
+}
+
+.brand-link {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.brand-link:hover {
+  color: #00a8cc;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #00a8cc;
+}
+
+.about-link {
+  margin-left: 20px;
+  background-color: #00a8cc;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.about-link:hover {
+  background-color: #007f99;
+  color: #fff;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+/* Carousel Styling */
+.MDBCarousel {
+  width: 100%;
+  height: 100%;
+}
+
+.MDBCarouselItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.MDBCarouselItem img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Key Features Section Styling */
+.features {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.feature i {
+  font-size: 36px;
+  color: #00a8cc;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.feature p {
+  color: #666;
+}
+
+/* Testimonials Section Styling */
+.testimonials {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.testimonial {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #666;
+}
+
+.testimonial cite {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Start Exam Button Styling */
+.btn-primary {
+  background-color: #00a8cc;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+  background-color: #007f99;
+  color: #fff;
+}
+
+/* Partners Section Styling */
+.partners {
+  padding: 50px 0;
+}
+
+.partner-logo img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+/* LandingPage.css */
+
+/* Style the Features Section */
+.features {
+  background-color: #f8f9fa; /* Background color for the Features Section */
+  padding: 80px 0; /* Add padding for spacing */
+}
+
+.section-title {
+  text-align: center; /* Center-align the section title */
+  margin-bottom: 40px; /* Add space below the section title */
+  font-size: 28px; /* Increase font size */
+}
+/* Features Section */
+.features {
+  background-color: #e3e7eb; /* Choose a background color that contrasts with your header background */
+  padding: 40px 0; /* Add padding to create space around the content */
+  text-align: center; /* Center-align the content within the section */
+
+  /* Style the heading */
+  h2 {
+    font-size: 2rem; /* Adjust the font size as needed */
+    color: #333; /* Choose a suitable text color */
+    margin-bottom: 20px; /* Add space below the heading */
+  }
+
+  /* Style individual feature boxes */
+  .feature {
+    margin-bottom: 30px; /* Add space between feature boxes */
+  }
+
+  /* Style feature icons */
+  .feature i {
+    font-size: 2.5rem; /* Adjust the icon size */
+    color: #00a8cc; /* Choose an appropriate icon color */
+    margin-bottom: 10px; /* Add space below the icon */
+  }
+
+  /* Style feature titles */
+  .feature h3 {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    color: #333; /* Choose a suitable text color */
+    margin-bottom: 10px; /* Add space below the title */
+  }
+
+  /* Style feature descriptions */
+  .feature p {
+    font-size: 1rem; /* Adjust the font size as needed */
+    color: #666; /* Choose a suitable text color */
+  }
+}
+
+
+/* Add these styles to LandingPage.css */
+
+.cta {
+  background-color: #007bff; /* Background color for the CTA Section */
+  color: #fff; /* Text color */
+  padding: 60px 0; /* Add padding for spacing */
+  text-align: center; /* Center-align content */
+}
+
+.cta h2 {
+  font-size: 28px; /* Increase font size for the section title */
+  margin-bottom: 30px; /* Add space below the section title */
+}
+
+.cta-buttons {
+  display: flex; /* Display buttons in a row */
+  justify-content: center; /* Center-align buttons horizontally */
+  align-items: center; /* Center-align buttons vertically */
+}
+
+.cta-button-space {
+  margin-left: 20px; /* Add space between buttons */
+}
+
+/* Style the buttons */
+.cta-buttons .btn {
+  font-size: 18px; /* Increase font size for buttons */
+  padding: 10px 20px; /* Add padding to buttons */
+}
+/* Add these styles to LandingPage.css */
+
+.about {
+  background-color: #f8f9fa; /* Background color for the About Section */
+  padding: 60px 0; /* Add padding for spacing */
+  text-align: center; /* Center-align content */
+  font-family: 'Your Beautiful Font', sans-serif; /* Choose a beautiful font style */
+  color: #333; /* Text color */
+}
+
+.about-title {
+  font-size: 36px; /* Increase font size for the section title */
+  margin-bottom: 30px; /* Add space below the section title */
+  color: #007bff; /* Title color */
+}
+
+.about-text {
+  font-size: 18px; /* Font size for paragraph text */
+  line-height: 1.5; /* Adjust line height for readability */
+  margin-bottom: 20px; /* Add space between paragraphs */
+  color: #555; /* Text color for paragraphs */
+}
+.heading-colosal{
+
+  font-weight: bolder;
+  font-size: 50px;
+  color:#000000;
+
+
+}
+/* Contact Us Section */
+.contact {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.contact-form button {
+  background-color: #007f99;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #005f77;
+}

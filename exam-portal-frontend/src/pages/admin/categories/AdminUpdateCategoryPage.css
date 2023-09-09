@@ -1,0 +1,100 @@
+.adminUpdateCategoryPage__container {
+    display: flex;
+}
+
+.adminUpdateCategoryPage__sidebar {
+    position: sticky;
+    top: 0;
+    flex: 0.01;
+}
+
+
+
+.adminUpdateCategoryPage__content--button{
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    background-color: rgb(68 177 49);
+    color:white;
+}
+
+  .adminUpdateCategoryPage__content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .adminUpdateCategoryPage__content--heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .adminUpdateCategoryPage__content--updateButton {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .adminUpdateCategoryPage__content--updateButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Form */
+  .form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.4); /* Set alpha value to 0 for full transparency */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .form-control-textarea {
+    resize: vertical;
+  }
+  .adminUpdateCategoryPage__content--addButton {
+    background-color: #44b131;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .adminUpdateCategoryPage__content--addButton:hover {
+    background-color: #3aa126;
+    transform: scale(1.05);
+  }
+  
+

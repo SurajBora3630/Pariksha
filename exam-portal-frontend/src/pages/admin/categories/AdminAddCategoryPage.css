@@ -1,0 +1,78 @@
+/* AdminAddCategoryPage.css */
+
+/* Container */
+.adminAddCategoryPage__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  display: flex;
+}
+
+/* Sidebar */
+.adminAddCategoryPage__sidebar {
+  flex: 1;
+  padding-right: 20px;
+}
+
+/* Content */
+.adminAddCategoryPage__content {
+  flex: 3;
+  background-color: #ffffff;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Set alpha value to 0 for full transparency */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Button */
+.adminAddCategoryPage__content--button {
+  background-color: #ff0000; /* Change to your desired background color */
+  border-color: #e30303; /* Change border color if desired */
+  color: #4332c6 ;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s, transform 0.2s;
+}
+
+.adminAddCategoryPage__content--button:hover {
+  background-color: #cc0000; /* Change to your desired hover background color */
+  border-color: #cc0000; /* Change hover border color if desired */
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+/* Form Groups */
+.adminAddCategoryPage__content .form-group {
+  margin-bottom: 20px;
+}
+
+/* Form Labels */
+.adminAddCategoryPage__content .form-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Form Controls */
+.adminAddCategoryPage__content .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.adminAddCategoryPage__content .form-control:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* ... (other styles) */

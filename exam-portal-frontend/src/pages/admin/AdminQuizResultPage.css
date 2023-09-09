@@ -1,0 +1,64 @@
+/* UserQuizResultPage.css */
+
+/* Container styles */
+.adminQuizResultPage__container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  /* Sidebar styles */
+  .adminQuizResultPage__sidebar {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  /* Content styles */
+  .adminQuizResultPage__content {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table styles */
+  .adminQuizResultPage__content--table {
+    width: 100%;
+  }
+  
+  /* Header row styles */
+  .adminQuizResultPage__content--table thead {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Header cell styles */
+  .adminQuizResultPage__content--table th {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle !important;
+  }
+  
+  /* Body row styles */
+  .adminQuizResultPage__content--table tbody tr {
+    text-align: center;
+    vertical-align: middle !important;
+  }
+  
+  /* Alternate row background color */
+  .adminQuizResultPage__content--table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect on rows */
+  .adminQuizResultPage__content--table tbody tr:hover {
+    background-color: #d4d4d4;
+  }
+  
+  /* Cell padding */
+  .adminQuizResultPage__content--table td {
+    padding: 8px;
+  }
+  

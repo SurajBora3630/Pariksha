@@ -1,0 +1,95 @@
+/* UserProfileUpdate.css */
+
+.userProfileUpdate__container {
+    display: flex;
+    align-items: flex-start; /* Align children to the top */
+    padding: 20px;
+    padding: 20px;
+    background-image: url('C:\Users\hp\Desktop\suraj\Exam-Portal-master\Exam-Portal-master\exam-portal-frontend\public\update.svg'); /* Path to your SVG image */
+    background-size: cover;
+    justify-content: center;
+  
+
+  }
+  
+  .userProfileUpdate__sidebar {
+    flex: 1; /* Allow the sidebar to grow */
+    margin-right: 20px; /* Add some spacing between sidebar and form content */
+  }
+  
+  .userProfileUpdate__content {
+    flex: 2; /* Allow the form content to grow more */
+    justify-content: center;
+  }
+  
+  /* Add any additional styling as needed for form elements, headings, etc. */
+  .userProfileUpdate__content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .userProfileUpdate__content form {
+    /* Add form styling here */
+  }
+  
+  .userProfileUpdate__content form label {
+    /* Add label styling here */
+  }
+  
+  .userProfileUpdate__content form input {
+    /* Add input styling here */
+  }
+  
+  .userProfileUpdate__content button {
+    /* Add button styling here */
+  }
+  
+  /* Media query for responsiveness (adjust as needed) */
+  @media (max-width: 768px) {
+    .userProfileUpdate__container {
+      flex-direction: column; /* Stack sidebar on top of form content on smaller screens */
+      align-items: center; /* Center align children on smaller screens */
+    }
+  
+    .userProfileUpdate__sidebar {
+      width: 100%; /* Sidebar takes full width on smaller screens */
+      margin-right: 0; /* No margin between sidebar and form content */
+    }
+  
+    .userProfileUpdate__content {
+      width: 100%; /* Form content takes full width on smaller screens */
+    }
+  }
+  
+  /* Remove background color from the form content */
+  .userProfileUpdate__content {
+    background-color: transparent !important;
+  }
+  
+  /* Styling for the card component */
+  .card {
+    border: none; /* Remove card border */
+    border-radius: 15px; /* Apply border radius */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+  }
+  
+  .card-body {
+    padding: 20px; /* Add padding to the card body */
+    background-color: rgba(255, 255, 255, 0.8); /* Set a semi-transparent white background */
+  }
+  
+  /* Customize card heading styles if needed */
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Customize card form styles if needed */
+  .card-form {
+    /* Add form styling here */
+  }
+  
+  /* Customize card button styles if needed */
+  .card-button {
+    /* Add button styling here */
+  }
+  
